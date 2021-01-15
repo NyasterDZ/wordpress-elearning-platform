@@ -976,6 +976,7 @@ jQuery(document).ready(function (){
 
 
 (function(){
+	var siteUrl = url["link"];
 	var spinner = false;
 	var prevalue;
 	var searchT;
@@ -1031,7 +1032,8 @@ jQuery(document).ready(function (){
 
 	function getSearch(searchWord)
 	{
-		$.getJSON("https://automatique-jijel.ml/wp-json/wp/v2/module?search=" + searchWord , posts =>{
+		
+		$.getJSON(siteUrl + "/wp-json/wp/v2/module?search=" + searchWord , posts =>{
 
 			$(".display-search-course").html(`
          ${posts.length ? posts.map(item=>`<h3><a href="${item.link}">${item.title.rendered}</a></h3>`) : `<h3>pas de résultats</h3>` }
@@ -1042,7 +1044,7 @@ jQuery(document).ready(function (){
 
 
 (function(){
-
+	var siteUrl = url["link"];
 	$('#submit').on('click',function(){
 
 		var userLogin = $('#user_login').val(),
@@ -1063,7 +1065,7 @@ jQuery(document).ready(function (){
 				if (data.status == 1)
 				{
 					$('.log-in-footer').html("<b style='color:green'>Informations Correctes</b>");
-					setTimeout("window.location.href='https://automatique-jijel.ml/'",1000);
+					setTimeout(`window.location.href='${siteUrl}',1000`);
 				}
 				else
 				{
