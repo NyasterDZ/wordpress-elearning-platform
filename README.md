@@ -42,12 +42,13 @@ In this folder you will find **2 files**:<br>
 **orbisius-wp-media-protector.php**: this file allows us to protect our files, that means that only registered members can see the files.<br>
 
 # quick modifications
-1. if you want to change something in the **navbar**, the responsible file is **header.php** in **wp-content/themes/elearning**
-2. if you want to change something in the **footer**, the responsible file is **footer-fpage.php** in **wp-content/themes/elearning**
-3. if you want to change something in the home page, the responsible file is **front-page.php** in **wp-content/themes/elearning**
-4. If you want to change the name of the options (Module/Chapter/Course/Video), the responsible file is **gp-cpt.php** in **wp-content/mu-plugins** **(Be careful when you modify something in this file, I suggest you to read a little about Custom post in wordpress)**
-5. if you want to change the style,logo, images, and js files you will find them in **wp-content/themes/elearning/assets**
-6. the additional fields that appear below each creation form (i.e. Module, Chapter, Course, Video), you will find them in **Custom Fields/Field Groups**. 
+1. if you want to modify the information of the theme, in the **style.css** file which is located in **wp-content/themes/elearning**, you will find the information in the first css comment. And the image of the theme is **screenshot.jpg**
+2. if you want to change something in the **navbar**, the responsible file is **header.php** in **wp-content/themes/elearning**
+3. if you want to change something in the **footer**, the responsible file is **footer-fpage.php** in **wp-content/themes/elearning**
+4. if you want to change something in the home page, the responsible file is **front-page.php** in **wp-content/themes/elearning**
+5. If you want to change the name of the options (Module/Chapter/Course/Video), the responsible file is **gp-cpt.php** in **wp-content/mu-plugins** **(Be careful when you modify something in this file, I suggest you to read a little about Custom post in wordpress)**
+6. if you want to change the style,logo, images, and js files you will find them in **wp-content/themes/elearning/assets**
+7. the additional fields that appear below each creation form (i.e. Module, Chapter, Course, Video), you will find them in **Custom Fields/Field Groups**. 
 
 # Copyrights
 You have the right to use everything for free, and you can change what you want.
