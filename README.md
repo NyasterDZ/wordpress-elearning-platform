@@ -36,12 +36,21 @@ this theme uses the Template (**Genius Course - School Classes Institute HTML Te
 First of all you start by creating courses. When you create a course you will find below a field to choose the course file (pdf or docx).
 Next you will create the chapters, and each chapter contains a set of courses. When you create a chapter you will find below a field to associate the courses to this chapter. Finally you will create the module, and when you create a module you will find below a field to associate the chapters to this module.
 
+# mu-plugins folder
+In this folder you will find **2 files**:<br>
+**gp-cpt.php**: to create the Custom Post <br>
+**orbisius-wp-media-protector.php**: this file allows us to protect our files, that means that only registered members can see the files.<br>
+
 # quick modifications
 1. if you want to change something in the **navbar**, the responsible file is **header.php** in **wp-content/themes/elearning**
 2. if you want to change something in the **footer**, the responsible file is **footer-fpage.php** in **wp-content/themes/elearning**
 3. if you want to change something in the home page, the responsible file is **front-page.php** in **wp-content/themes/elearning**
 4. If you want to change the name of the options (Module/Chapter/Course/Video), the responsible file is **gp-cpt.php** in **wp-content/mu-plugins** **(Be careful when you modify something in this file, I suggest you to read a little about Custom post in wordpress)**
-5. the additional fields that appear below each creation form (i.e. Module, Chapter, Course, Video), you will find them in **Custom Fields/Field Groups**. 
+5. if you want to change the style,logo, images, and js files you will find them in **wp-content/themes/elearning/assets**
+6. the additional fields that appear below each creation form (i.e. Module, Chapter, Course, Video), you will find them in **Custom Fields/Field Groups**. 
+
+# Copyrights
+You have the right to use everything for free, and you can change what you want.
 
 
 
