@@ -97,7 +97,7 @@ if (is_user_logged_in())
                 param     = 'test_login';
 
             $.ajax({
-                url: "http://automatique-jijel.ml/wp-admin/admin-ajax.php",
+                url: "<?php bloginfo('url'); ?>/wp-admin/admin-ajax.php",
                 type: "POST",
                 beforeSend: function(){
                     $('#submit').text("Vérification...");
@@ -109,7 +109,7 @@ if (is_user_logged_in())
                     if (data.status == 1)
                     {
                         $('.log-in-footer').html("<center><b style='color:green'>Informations Correctes</b></center>");
-                        setTimeout("window.location.href='http://automatique-jijel.ml/'",1000);
+                        setTimeout("window.location.href='<?php bloginfo('url'); ?>'",1000);
                     }
                     else
                     {
