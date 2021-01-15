@@ -20,7 +20,7 @@ this theme uses the Template (**Genius Course - School Classes Institute HTML Te
 7. Now, go to your **Control Board** and **activate** your theme in **Appearance/themes**
  8. In your **Control Board** go to **plugins/Installed Plugins** and activate all the plugins you have added
  9. go to **Members/Roles** and edit the **administrator** role:
- allow him to manage "Modules/Chapters/Courses/Videos".<br>
+ allow him to manage **Modules-Chapters-Courses-Videos** .<br>
  you will see that new options in your control panel are added
  10. add three new empty pages : home/blog/login.
  11. go to **Settings/Reading** than choose **a static page**:
