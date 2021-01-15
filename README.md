@@ -25,8 +25,9 @@ this theme uses the Template (**Genius Course - School Classes Institute HTML Te
  10. add three new empty pages : home/blog/login.
  11. go to **Settings/Reading** than choose **a static page**:
  for **homepage** choose **home**, and **Posts page** choose **blog**
- 12. go to **Settings/Permalinks** and choose **Post name** then save changes.
- 13. Finally don't forget to activate the registrations in **Settings/General**
+ 12. go to **Custom Fields/Tools** then in **Import Field Groups** choose the json file **(that you have downloaded)**, click **import file**.
+ 13. go to **Settings/Permalinks** and choose **Post name** then save changes.
+ 14. Finally don't forget to activate the registrations in **Settings/General**
  
  
 
