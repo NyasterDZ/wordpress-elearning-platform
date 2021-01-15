@@ -1,0 +1,54 @@
+.table_class{
+    color: #000 !important;
+}
+#hk_user_status_dt th {
+    text-align: left;
+}
+.action-cls .online-users{
+    margin: 0px; 
+    height: 20px;    
+    width: 20px;   
+    border-radius: 50%;    
+    border: 1px solid #2fbd2f;    
+    background: #c3efc3;    
+    background: -moz-linear-gradient(top, #c3efc3 0%, #80dd80 18%, #80dd80 22%, #0dbe0d 52%, #05c203 77%, #05c203 92%, #75e243 100%);    
+    background: -webkit-linear-gradient(top, #c3efc3 0%,#80dd80 18%,#80dd80 22%,#0dbe0d 52%,#05c203 77%,#05c203 92%,#75e243 100%);    
+    background: linear-gradient(to bottom, #c3efc3 0%,#80dd80 18%,#80dd80 22%,#0dbe0d 52%,#05c203 77%,#05c203 92%,#75e243 100%);
+}
+.action-cls .away-users{
+    margin: 0px;height: 20px;    
+    width: 20px;    
+    border-radius: 50%;    
+    border: 1px solid #d4af37;    
+    background: #fced8f;    
+    background: -moz-linear-gradient(top, #fced8f 6%, #f7ca02 28%, #f7ca02 47%, #f7ca02 58%, #f7ca02 67%, #f7ca02 83%, #edc902 100%);    
+    background: -webkit-linear-gradient(top, #fced8f 6%,#f7ca02 28%,#f7ca02 47%,#f7ca02 58%,#f7ca02 67%,#f7ca02 83%,#edc902 100%);    
+    background: linear-gradient(to bottom, #fced8f 6%,#f7ca02 28%,#f7ca02 47%,#f7ca02 58%,#f7ca02 67%,#f7ca02 83%,#edc902 100%);
+}
+.action-cls .offline-users{
+    margin: 0px;height: 20px;    
+    width: 20px;    
+    border-radius: 50%;    
+    border: 1px solid #d41212;    
+    background: #e8a4a4;    
+    background: -moz-linear-gradient(top, #e8a4a4 1%, #ea7c7c 18%, #e86a6a 25%, #e83e3e 40%, #e52424 56%, #e52424 70%, #e27373 100%);   
+    background: -webkit-linear-gradient(top, #e8a4a4 1%,#ea7c7c 18%,#e86a6a 25%,#e83e3e 40%,#e52424 56%,#e52424 70%,#e27373 100%);    
+    background: linear-gradient(to bottom, #e8a4a4 1%,#ea7c7c 18%,#e86a6a 25%,#e83e3e 40%,#e52424 56%,#e52424 70%,#e27373 100%);
+}
+
+.shortcode-display-wrap{
+    display: inline-block;
+    margin-right: 0px;
+    margin: 25px 0px 25px 25px;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 9px 0px 10px 25px;
+    background: rgba(169, 169, 169, 0.52);
+    width: 9.5%;
+    border-radius: 5px;
+    color: #000;
+}
+
+.outre-shortcode{
+    font-size: 18px;   
+}

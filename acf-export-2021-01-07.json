@@ -1,0 +1,333 @@
+[
+    {
+        "key": "group_5d78e041435b0",
+        "title": "Choisir les cours",
+        "fields": [
+            {
+                "key": "field_5d78e04d1e55d",
+                "label": "référence du cours",
+                "name": "ref_cours",
+                "type": "relationship",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "cours"
+                ],
+                "taxonomy": "",
+                "filters": [
+                    "search",
+                    "post_type",
+                    "taxonomy"
+                ],
+                "elements": "",
+                "min": "",
+                "max": "",
+                "return_format": "object"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "chapitre"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d4af12571fef",
+        "title": "inforamtions chapter",
+        "fields": [
+            {
+                "key": "field_5d4af1929c434",
+                "label": "Titre Chapitre",
+                "name": "titre_chapitre",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "chapitre"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d78e10e315c6",
+        "title": "informations du cours",
+        "fields": [
+            {
+                "key": "field_5d78e1171a2ae",
+                "label": "fichier du cours",
+                "name": "file_cours",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5e86160ea6445",
+                "label": "titre du cours",
+                "name": "titre_du_cours",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "cours"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d4ae13f14c1d",
+        "title": "informations Module",
+        "fields": [
+            {
+                "key": "field_5d4ae1521020e",
+                "label": "badge",
+                "name": "badge_course",
+                "type": "text",
+                "instructions": "le badge du cour",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d4ae1b2c61bf",
+                "label": "icon badge",
+                "name": "icon_badge_course",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "fas fa-bolt": "Nouveau",
+                    "fas fa-exclamation-triangle": "important"
+                },
+                "default_value": [
+                    "choisis une icon"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5d4aee8e9ec99",
+                "label": "chapters",
+                "name": "chapters",
+                "type": "relationship",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "chapitre"
+                ],
+                "taxonomy": "",
+                "filters": [
+                    "search",
+                    "post_type",
+                    "taxonomy"
+                ],
+                "elements": "",
+                "min": "",
+                "max": "",
+                "return_format": "object"
+            },
+            {
+                "key": "field_5e889f80f4a8f",
+                "label": "Prof",
+                "name": "prof",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Non indiqué": "Non indiqué",
+                    "Meriem Halimi": "Meriem Halimi",
+                    "Toufik Bouden": "Toufik Bouden",
+                    "Naâmane Bounar": "Naâmane Bounar",
+                    "Ab.Boulkroune": "Ab.Boulkroune",
+                    "Ahcene Boubakir": "Ahcene Boubakir",
+                    "Aicha Zibra": "Aicha Zibra",
+                    "Farah Bouakrif": "Farah Bouakrif",
+                    "Hamid Boubertakh": "Hamid Boubertakh",
+                    "KHEBBACH Hicham": "KHEBBACH Hicham",
+                    "Mina Kemiha": "Mina Kemiha",
+                    "Nabil Oucief": "Nabil Oucief",
+                    "Salim Labiod": "Salim Labiod",
+                    "Sofiane Doudou": "Sofiane Doudou",
+                    "Souad Amira-Biad": "Souad Amira-Biad"
+                },
+                "default_value": [
+                    "Aucun"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "module"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d63edb5e552d",
+        "title": "video link",
+        "fields": [
+            {
+                "key": "field_5d63edc7a5a56",
+                "label": "video link",
+                "name": "video_link",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "video"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
