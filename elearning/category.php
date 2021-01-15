@@ -1,7 +1,7 @@
 <?php
 if (!is_user_logged_in())
 {
-    wp_redirect('http://automatique-jijel.ml/login');
+    wp_redirect(get_bloginfo("url").'/login');
     exit;
 }
 get_header();
