@@ -1,5 +1,4 @@
 <?php
-
 function gp_files()
 {
     
@@ -17,6 +16,10 @@ function gp_files()
     wp_enqueue_script('jquery-ui',get_theme_file_uri('assets/js/jquery-ui.js'), NULL, '1.0', true);
     wp_enqueue_script('gmap3',get_theme_file_uri('assets/js/gmap3.min.js'), NULL, '1.0', true);
     wp_enqueue_script('script125',get_theme_file_uri('assets/js/script.js'), NULL, '1.0', true);
+    wp_localize_script('script125', 'url', array(
+        'link' => get_bloginfo("url")
+    )
+);
 	wp_enqueue_style('world_main_style',get_stylesheet_uri());
 }
 
@@ -163,7 +166,7 @@ function my_login_page_logo() { ?>
         body.login div#login h1 a {
         width:250px;
         height:50px;
-        background-image: url('http://automatique-jijel.ml/wp-content/themes/autojijel/assets/img/logo/logo.png');
+        background-image: url('');
         background-size: 250px 50px;
         }
     </style>
