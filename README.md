@@ -1,4 +1,4 @@
-# wordpress-elearning-plateform
+# wordpress-elearning-platform
 A simple e-learning platform to share files and courses with students 
 ![enter image description here](https://nimbusweb.me/box/attachment/5091765/d7mfuntnqqywzvblfq2u/zs7eH2THMNSJJ6li/screenshot-localhost_8080-2021.01.15-19_29_24.png)
 
