@@ -6,6 +6,7 @@ A simple e-learning platform to share files and courses with students
 
 1. This theme uses the Template (**Genius Course - School Classes Institute HTML Template**)  that I already bought, so if you want to have a license for this theme, buy it from [this link](https://themeforest.net/item/genius-course-learning-course-html-template/21984716)   
 2. There is a mix between French and English in some names, so you can change what you want.
+3. [RTL version](https://github.com/NyasterDZ/wordpress-elearning-platform-rtl)
 
 # Installation steps
 
